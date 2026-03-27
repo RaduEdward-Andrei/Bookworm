@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.modelContext) var modelContext
     @Query(sort: [
+        SortDescriptor(\Book.date, order: .reverse),
         SortDescriptor(\Book.title),
         SortDescriptor(\Book.author)
     ]) var books: [Book]
