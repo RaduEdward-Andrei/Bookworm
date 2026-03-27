@@ -38,6 +38,8 @@ struct DetailView: View {
 
             Text(book.review)
                 .padding()
+            
+            Text(book.date, format: .dateTime.day().month().year())
 
             RatingView(rating: .constant(book.rating))
                 .font(.largeTitle)
