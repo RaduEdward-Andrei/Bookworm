@@ -1,9 +1,5 @@
 # Bookworm
 
-SwiftUI app for tracking books, with local persistence using SwiftData.
-
-## Overview
-
 Bookworm allows users to add, view, and delete books, storing information such as title, author, rating, and review. Data is persisted locally using SwiftData.
 
 ## Tech
